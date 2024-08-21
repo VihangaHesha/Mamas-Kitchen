@@ -3,43 +3,72 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home Paget</title>
+    <link rel="icon" href="Assets/Images/mom_s_kitchen-removebg-preview.png" />
+    <title>Home Page</title>
     <style>
+      table,
+      th,
+      td {
+        width: 800px;
+        text-align: center;
+      }
+      .img {
+        border-radius: 40px;
+      }
       .text {
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
         font-size: 20px;
       }
-      .center {
+      .alignment {
         display: block;
-        margin-left: 100px;
+        margin-left: 50px;
         margin-right: 800px;
         width: 50%;
+      }
+      a:hover {
+        color: #6a72716c;
+        text-decoration: underline;
+      }
+      a {
+        text-decoration: none;
+        color: #181b1b;
       }
     </style>
   </head>
   <body>
     <main>
-      <section>
+      <header>
         <div class="text">
-          <center>
-            <u><h1>Mom's Kitchen</h1></u>
-          </center>
-          <hr />
+          <nav>
+            <a href="#"
+              ><img
+                src="/Assets/Images/Mom's Kitchen Logo.png"
+                alt="An image of Mom's Kitchen Logo"
+                width="75px"
+                height="75px"
+            /></a>
+            <ul>
+              <li><button type="button">Sign in</button></li>
+              <li><button type="button">Sign up</button></li>
+            </ul>
+          </nav>
         </div>
-      </section>
+      </header>
       <section>
         <div class="text">
-          <p>
-            Welcome to Mom's Kitchen, your go-to destination for delicious,
-            easy-to-follow recipes that cater to every taste and occasion.
-            <br />
-            Whether you're a seasoned chef or just starting your culinary
-            journey, our collection of recipes is designed to inspire and guide
-            you in the kitchen. From quick weeknight dinners to decadent
-            desserts, we offer a wide variety of dishes that are sure to
-            satisfy. Explore our tips, step-by-step guides, and creative meal
-            ideas to elevate your cooking and bring joy to your table!
-          </p>
+          <article>
+            <p>
+              Welcome to Mom's Kitchen, your go-to destination for delicious,
+              easy-to-follow recipes that cater to every taste and occasion.
+              <br />
+              Whether you're a seasoned chef or just starting your culinary
+              journey, our collection of recipes is designed to inspire and
+              guide you in the kitchen. From quick weeknight dinners to decadent
+              desserts, we offer a wide variety of dishes that are sure to
+              satisfy. Explore our tips, step-by-step guides, and creative meal
+              ideas to elevate your cooking and bring joy to your table!
+            </p>
+          </article>
         </div>
       </section>
     </main>
@@ -47,50 +76,119 @@
     <!-- ================ -->
     <section>
       <div class="text">
-        <dl>
-          <dt><h2>Latest & Updates</h2></dt>
-          <dd>
-            <h3>Raspberry brûlée</h3>
-            <a href="/Pages/Desserts.html"
-              ><img
-                src="/Assets/Images/istockphoto-1199904953-1024x1024.jpg"
-                alt="An image of Raspberry brûlée"
-                class="center"
-            /></a>
-          </dd>
-        </dl>
+        <h2>Latest Updates</h2>
+        <table>
+          <tr style="height: 200px">
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+          </tr>
+          <tr style="height: 200px">
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+          </tr>
+          <tr style="height: 200px">
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+          </tr>
+        </table>
       </div>
     </section>
     <!-- ======== -->
     <section>
       <div class="text">
-        <dl>
-          <dt>
-            <h2>Categories</h2>
-          </dt>
-          <dd>
-            <ul>
-              <li>
-                <a href="/Pages/Salads.html"><h3>Salads</h3></a>
-              </li>
-              <li>
-                <a href="/Pages/Starters.html"><h3>Starters</h3></a>
-              </li>
-              <li>
-                <a href="/Pages/BrunchMeals.html"><h3>Brunch Meals</h3></a>
-              </li>
-              <li>
-                <a href="/Pages/DinnerMeals.html"><h3>Dinner Meals</h3></a>
-              </li>
-              <li>
-                <a href="/Pages/Desserts.html"><h3>Desserts</h3></a>
-              </li>
-              <li>
-                <a href="/Pages/Soups.html"><h3>Soups</h3></a>
-              </li>
-            </ul>
-          </dd>
-        </dl>
+        <h2>Categories</h2>
+        <table style="margin-left: 50px; margin-right: 50px; width: 800px">
+          <tr style="height: 170px">
+            <td>
+              <a href="/Pages/Salads.html" target="_blank"
+                ><img
+                  src="/Assets/Images/adam-bartoszewicz-_zXy4MvdWkA-unsplash.jpg"
+                  alt="An image of a salad"
+                  style="height: 100px; width: 100px; object-fit: cover"
+                  class="img"
+              /></a>
+            </td>
+            <td>
+              <a href="/Pages/Starters.html" target="_blank"
+                ><img
+                  src="/Assets/Images/Spot Prawn Sesame Salad.jpg"
+                  alt="An image of a Starter"
+                  style="height: 100px; width: 100px; object-fit: cover"
+                  class="img"
+              /></a>
+            </td>
+            <td>
+              <a href="/Pages/Soups.html" target="_blank"
+                ><img
+                  src="/Assets/Images/sherman-kwan-Vuc8cRavyl4-unsplash.jpg"
+                  alt="An image of a soup"
+                  style="height: 100px; width: 100px; object-fit: cover"
+                  class="img"
+              /></a>
+            </td>
+            <td>
+              <a href="/Pages/BrunchMeals.html" target="_blank"
+                ><img
+                  src="/Assets/Images/istockphoto-989456062-1024x1024.jpg"
+                  style="height: 100px; width: 100px; object-fit: cover"
+                  alt="An image of a Brunch meal"
+                  class="img"
+              /></a>
+            </td>
+            <td>
+              <a href="/Pages/DinnerMeals.html" target="_blank"
+                ><img
+                  src="/Assets/Images/christine-siracusa-Cs5xVwB50Ps-unsplash.jpg"
+                  style="height: 100px; width: 100px; object-fit: cover"
+                  alt="An image of a Dinner meal"
+                  class="img"
+              /></a>
+            </td>
+            <td>
+              <a href="/Pages/Desserts.html" target="_blank"
+                ><img
+                  src="/Assets/Images/tirmisu.jpg"
+                  alt="An image of dessert"
+                  style="height: 100px; width: 100px; object-fit: cover"
+                  class="img"
+              /></a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="/Pages/Salads.html" target="_blank"><h3>Salads</h3></a>
+            </td>
+            <td>
+              <a href="/Pages/Starters.html" target="_blank"
+                ><h3>Starters</h3></a
+              >
+            </td>
+            <td>
+              <a href="/Pages/Soups.html" target="_blank"><h3>Soups</h3></a>
+            </td>
+            <td>
+              <a href="/Pages/BrunchMeals.html" target="_blank"
+                ><h3>Brunch Meals</h3></a
+              >
+            </td>
+            <td>
+              <a href="/Pages/DinnerMeals.html" target="_blank"
+                ><h3>Dinner Meals</h3></a
+              >
+            </td>
+            <a href="/Pages/DinnerMeals.html" target="_blank"
+              ><h3>Dinner Meals</h3></a
+            >
+            <td>
+              <a href="/Pages/Desserts.html" target="_blank"
+                ><h3>Desserts</h3></a
+              >
+            </td>
+          </tr>
+        </table>
       </div>
     </section>
     <!-- ============ -->
