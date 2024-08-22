@@ -3,14 +3,57 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="Assets/Images/mom_s_kitchen-removebg-preview.png" />
-    <title>Home Page</title>
+    <title>Mom's Kitchen</title>
+    <link rel="icon" href="/Assets/Icons/Mom_s_Kitchen 2.png" />
     <style>
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      a :hover {
+        color: gray;
+      }
+      body {
+        margin: 0px;
+      }
+      main {
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      .navbar ul {
+        list-style-type: none;
+        background-color: rgb(55, 28, 153);
+        padding: 0px;
+        margin: 0px;
+        overflow: hidden;
+      }
+      .navbar a {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        color: rgb(240, 238, 243);
+        text-decoration: none;
+        padding: 10px;
+        display: block;
+        text-align: center;
+      }
+      .navbar a:hover {
+        color: rgb(113, 73, 223);
+      }
+      .navbar li {
+        float: left;
+      }
+      .navbar button {
+        border-radius: 15px;
+        background-color: rgb(46, 38, 92);
+        height: 50px;
+        width: 120px;
+        text-align: center;
+      }
       table,
       th,
       td {
         width: 800px;
-        text-align: center;
+        text-align: justify;
       }
       .img {
         border-radius: 40px;
@@ -25,35 +68,30 @@
         margin-right: 800px;
         width: 50%;
       }
-      a:hover {
-        color: #6a72716c;
-        text-decoration: underline;
-      }
-      a {
-        text-decoration: none;
-        color: #181b1b;
-      }
     </style>
   </head>
-  <body>
+  <body class="text">
+    <header>
+      <div class="navbar">
+        <nav>
+          <ul>
+            <li>
+              <a href="#"
+                ><img
+                  src="/Assets/Icons/Mom_s_Kitchen 2.png"
+                  alt="An image of a logo"
+                  style="height: 80px; width: 80px"
+              /></a>
+            </li>
+            <li><a href="#">Home</a></li>
+            <li><a href="/Pages/Categories.html">Categories</a></li>
+            <li><a href="/Pages/About.html">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <main>
-      <header>
-        <div class="text">
-          <nav>
-            <a href="#"
-              ><img
-                src="/Assets/Images/Mom's Kitchen Logo.png"
-                alt="An image of Mom's Kitchen Logo"
-                width="75px"
-                height="75px"
-            /></a>
-            <ul>
-              <li><button type="button">Sign in</button></li>
-              <li><button type="button">Sign up</button></li>
-            </ul>
-          </nav>
-        </div>
-      </header>
       <section>
         <div class="text">
           <article>
@@ -79,19 +117,58 @@
         <h2>Latest Updates</h2>
         <table>
           <tr style="height: 200px">
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
+            <td>
+              <img
+                src="/Assets/Images/amin-ramezani-PipzrGSil-c-unsplash.jpg"
+                alt="An image of a salad"
+                style="height: 200px; object-fit: cover"
+                class="img"
+              />
+            </td>
+            <td>
+              <img
+                src="/Assets/Images/sherman-kwan-Vuc8cRavyl4-unsplash.jpg"
+                alt="An image of a soup"
+                style="height: 200px; object-fit: cover"
+                class="img"
+              />
+            </td>
           </tr>
           <tr style="height: 200px">
-            <td>4</td>
-            <td>5</td>
-            <td>6</td>
+            <td rowspan="2">
+              <img
+                src="/Assets/Images/caramel-dhpiee8rkTo-unsplash.jpg"
+                alt="An image of a dessert"
+                style="height: 400px; object-fit: cover"
+                class="img"
+              />
+            </td>
+            <td>
+              <img
+                src="/Assets/Images/Chicken Shawarma.jpg"
+                alt="An image of a Shawarma"
+                style="height: 200px; object-fit: cover"
+                class="img"
+              />
+            </td>
+            <td>
+              <img
+                src="/Assets/Images/brooke-lark-R18ecx07b3c-unsplash.jpg"
+                alt="An image of a soup"
+                style="height: 200px; object-fit: cover"
+                class="img"
+              />
+            </td>
           </tr>
           <tr style="height: 200px">
-            <td>7</td>
-            <td>8</td>
-            <td>9</td>
+            <td>
+              <img
+                src="/Assets/Images/Green shakshuka with harissa & crispy shallots.jpg"
+                alt="an image"
+                style="height: 200px; object-fit: cover"
+                class="img"
+              />
+            </td>
           </tr>
         </table>
       </div>
@@ -179,9 +256,7 @@
                 ><h3>Dinner Meals</h3></a
               >
             </td>
-            <a href="/Pages/DinnerMeals.html" target="_blank"
-              ><h3>Dinner Meals</h3></a
-            >
+
             <td>
               <a href="/Pages/Desserts.html" target="_blank"
                 ><h3>Desserts</h3></a
@@ -195,21 +270,16 @@
     <article>
       <section>
         <div class="text">
-          <dl>
-            <dt><h2>About</h2></dt>
-            <dd>
-              <p>
-                Mom's Kitchen is a passionate home cook and food enthusiast with
-                a love for experimenting in the kitchen. From comforting
-                classics to bold, new flavors, my goal is to share recipes that
-                are easy to follow, delicious, and bring joy to your table.
-                Whether you're a seasoned chef or just starting your culinary
-                journey, you'll find a variety of dishes here that cater to
-                every taste and occasion. Join me as we explore the wonderful
-                world of food, one recipe at a time
-              </p>
-            </dd>
-          </dl>
+          <h2>About Us</h2>
+          <p>
+            Mom's Kitchen is a passionate home cook and food enthusiast with a
+            love for experimenting in the kitchen. From comforting classics to
+            bold, new flavors, my goal is to share recipes that are easy to
+            follow, delicious, and bring joy to your table. Whether you're a
+            seasoned chef or just starting your culinary journey, you'll find a
+            variety of dishes here that cater to every taste and occasion. Join
+            me as we explore the wonderful world of food, one recipe at a time
+          </p>
         </div>
       </section>
     </article>
@@ -236,34 +306,39 @@
     <section>
       <div class="text">
         <nav>
-          <dl>
-            <dt><h2>Get Connected</h2></dt>
-            <dd>Follow us On</dd>
-            <br />
-            <a href="https://web.facebook.com/anomaskitchen" target="_blank">
-              <img
-                src="/Assets/Icons/icons8-facebook-100.png"
-                alt="An image of Facebook"
-            /></a>
-            <a href="https://www.youtube.com/@AnomasKitchen" target="_blank">
-              <img
-                src="/Assets/Icons/icons8-youtube-100.png"
-                alt="An image of Youtube"
-              />
-            </a>
-            <a
-              href="https://www.instagram.com/anomaskitchen?igsh=MTk5MnFsNHQ3YTQ0NA=="
-              target="_blank"
-            >
-              <img
-                src="/Assets/Icons/icons8-instagram-100.png"
-                alt="An image of instagram"
-              />
-            </a>
-          </dl>
+          <h2>Connect with us</h2>
+          <a href="https://web.facebook.com/anomaskitchen" target="_blank">
+            <img
+              src="/Assets/Icons/icons8-facebook-100.png"
+              alt="An image of Facebook"
+              style="height: 50px; width: 50px"
+          /></a>
+          <a href="https://www.youtube.com/@AnomasKitchen" target="_blank">
+            <img
+              src="/Assets/Icons/icons8-youtube-100.png"
+              alt="An image of Youtube"
+              style="height: 50px; width: 50px"
+            />
+          </a>
+          <a
+            href="https://www.instagram.com/anomaskitchen?igsh=MTk5MnFsNHQ3YTQ0NA=="
+            target="_blank"
+          >
+            <img
+              src="/Assets/Icons/icons8-instagram-100.png"
+              alt="An image of instagram"
+              style="height: 50px; width: 50px"
+            />
+          </a>
         </nav>
       </div>
     </section>
     <br />
+    <footer>
+      <nav>
+        <a href="#">Home</a>
+      </nav>
+      <p>&copy; 2023 Mom's Kitchen. All rights reserved.</p>
+    </footer>
   </body>
 </html>
