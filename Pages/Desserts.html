@@ -5,172 +5,245 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Desserts</title>
     <style>
-      .align {
+      h2 {
+        background-color: rgb(55, 28, 153);
+        color: white;
+        padding: 5px;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      a :hover {
+        color: gray;
+      }
+      body {
+        margin: 0px;
+      }
+      main {
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      .navbar ul {
+        list-style-type: none;
+        background-color: rgb(55, 28, 153);
+        padding: 0px;
+        margin: 0px;
+        overflow: hidden;
+      }
+      .navbar a {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        color: rgb(240, 238, 243);
+        text-decoration: none;
+        padding: 10px;
+        display: block;
+        text-align: center;
+      }
+      .navbar a:hover {
+        color: rgb(113, 73, 223);
+      }
+      .navbar li {
+        float: left;
+      }
+      table,
+      th,
+      td {
+        width: 800px;
+        text-align: justify;
+      }
+      img {
+        border-radius: 40px;
+      }
+      * {
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
         font-size: 20px;
       }
-      .center {
+      .alignment {
         display: block;
-        margin-left: 100px;
+        margin-left: 50px;
         margin-right: 800px;
         width: 50%;
       }
+      footer {
+        background-color: rgb(55, 28, 153);
+        color: white;
+        padding: 5px;
+      }
+      footer a {
+        color: rgb(240, 238, 243);
+        text-decoration: none;
+      }
+      footer a :hover {
+        color: rgb(113, 73, 223);
+      }
     </style>
   </head>
-  <body class="align">
-    <h1>
-      <center><u>Desserts</u></center>
-    </h1>
-    <hr />
-    <dl>
-      <dt>
-        <h2><u>Raspberry brûlée</u></h2>
-      </dt>
+  <body>
+    <header>
+      <div class="navbar">
+        <nav>
+          <ul>
+            <li>
+              <a href="/index.html"
+                ><img
+                  src="/Assets/Icons/Mom_s_Kitchen 2.png"
+                  alt="An image of a logo"
+                  style="height: 80px; width: 80px"
+              /></a>
+            </li>
+            <li><h1 style="color: aliceblue; font-size: 30px">Desserts</h1></li>
+            <div style="width: 75%; display: flex; justify-content: end">
+              <li><a href="#">Home</a></li>
+              <li><a href="/Pages/Categories.html">Categories</a></li>
+              <li><a href="/Pages/About.html">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </div>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <h2>Raspberry brûlée</h2>
       <img
         src="/Assets/Images/istockphoto-1199904953-1024x1024.jpg"
         alt="An image of Raspberry brûlée"
-        class="center"
+        class="alignment"
       />
-      <dd>
-        <h3>Ingredients</h3>
-        <ul>
-          <li>1 vanilla pod</li>
-          <li>½ lemon, pared zest only</li>
-          <li>300ml double cream</li>
-          <li>100g raspberries</li>
-          <li>4 egg yolks</li>
-          <li>2 tbsp golden caster sugar</li>
-          <li>2 tbsp demerara sugar</li>
-        </ul>
-      </dd>
-      <dd>
-        <h3>Instructions</h3>
-        <ul>
-          <li>
-            <h4>Step 1</h4>
-            <p>
-              Split the vanilla pod and scrape the seeds into a pan with the
-              lemon zest and cream. Toss the pod in too. <br />
-              Heat until just before the cream boils – tiny bubbles will be
-              forming at the edges. Turn off the heat and infuse for 15 mins.
-            </p>
-          </li>
-          <li>
-            <h4>Step 2</h4>
-            <p>
-              Heat oven to 160C/140C fan/gas 3. Put four ramekins into a
-              roasting tin and fill the tin with boiling water so that about 2cm
-              of the ramekins is uncovered.
-            </p>
-          </li>
-          <li>
-            <h4>Step 3</h4>
-            <p>
-              Divide the raspberries between the ramekins, reserving a few.
-              Whisk the egg yolks and caster sugar, using an electric whisk,
-              <br />
-              until very pale and fluffy, about 3 mins. Remove the zest and
-              vanilla pod from the cooled cream, then slowly stir it into the
-              egg mixture. <br />Transfer to a jug and pour through a sieve into
-              the ramekins, then top with the reserved raspberries. Bake in the
-              oven for 20-25 mins until <br />
-              the custard forms a skin and holds a slight wobble when you nudge
-              the tray. Allow to cool, then chill in the fridge for at least 4
-              hrs.
-            </p>
-          </li>
-          <li>
-            <h4>Step 4</h4>
-            <p>
-              If you don’t have a blowtorch, heat the grill to high. Sprinkle
-              demerara sugar over each ramekin and either use a blowtorch to
-              caramelise <br />
-              the top or place them under the grill until the sugar has melted
-              and crisped. Allow to settle for 5 mins before serving.
-            </p>
-          </li>
-        </ul>
-      </dd>
-      <dd>
-        <h3>Instructions Video</h3>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/8U3TJmEbo-A?si=rn7EW6RU_HYNUkMS"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-          class="center"
-        ></iframe>
-      </dd>
-      <dt>
-        <h2><u>Tiramisu</u></h2>
-      </dt>
+      <h3>Ingredients</h3>
+      <ul>
+        <li>1 vanilla pod</li>
+        <li>½ lemon, pared zest only</li>
+        <li>300ml double cream</li>
+        <li>100g raspberries</li>
+        <li>4 egg yolks</li>
+        <li>2 tbsp golden caster sugar</li>
+        <li>2 tbsp demerara sugar</li>
+      </ul>
+      <h3>Instructions</h3>
+      <ul>
+        <li>
+          <h4>Step 1</h4>
+          <p>
+            Split the vanilla pod and scrape the seeds into a pan with the lemon
+            zest and cream. Toss the pod in too. <br />
+            Heat until just before the cream boils – tiny bubbles will be
+            forming at the edges. Turn off the heat and infuse for 15 mins.
+          </p>
+        </li>
+        <li>
+          <h4>Step 2</h4>
+          <p>
+            Heat oven to 160C/140C fan/gas 3. Put four ramekins into a roasting
+            tin and fill the tin with boiling water so that about 2cm of the
+            ramekins is uncovered.
+          </p>
+        </li>
+        <li>
+          <h4>Step 3</h4>
+          <p>
+            Divide the raspberries between the ramekins, reserving a few. Whisk
+            the egg yolks and caster sugar, using an electric whisk,
+            <br />
+            until very pale and fluffy, about 3 mins. Remove the zest and
+            vanilla pod from the cooled cream, then slowly stir it into the egg
+            mixture.
+            <br />Transfer to a jug and pour through a sieve into the ramekins,
+            then top with the reserved raspberries. Bake in the oven for 20-25
+            mins until <br />
+            the custard forms a skin and holds a slight wobble when you nudge
+            the tray. Allow to cool, then chill in the fridge for at least 4
+            hrs.
+          </p>
+        </li>
+        <li>
+          <h4>Step 4</h4>
+          <p>
+            If you don’t have a blowtorch, heat the grill to high. Sprinkle
+            demerara sugar over each ramekin and either use a blowtorch to
+            caramelise <br />
+            the top or place them under the grill until the sugar has melted and
+            crisped. Allow to settle for 5 mins before serving.
+          </p>
+        </li>
+      </ul>
+      <h3>Instructions Video</h3>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/8U3TJmEbo-A?si=rn7EW6RU_HYNUkMS"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+        class="alignment"
+      ></iframe>
+      <h2>Tiramisu</h2>
       <img
         src="/Assets/Images/tirmisu.jpg"
         alt="An image of Tiramisu"
-        class="center"
+        class="alignment"
       />
-      <dd>
-        <h3>Ingredients</h3>
-        <ul>
-          <li>3 tsp instant coffee granules</li>
-          <li>3 tbsp coffee liqueur</li>
-          <li>250g tub mascarpone</li>
-          <li>85g condensed milk</li>
-          <li>1 tsp vanilla extract</li>
-          <li>4-6 sponge fingers</li>
-          <li>1 tbsp cocoa powder</li>
-        </ul>
-      </dd>
-      <dd>
-        <h3>Instructions</h3>
-        <ul>
-          <li>
-            <h4>Step 1</h4>
-            <p>
-              Mix the coffee granules with 2 tbsp boiling water in a large jug
-              and stir to combine. Add the coffee liqueur and 75ml cold water.
-              <br />
-              Pour into a shallow dish and set aside.
-            </p>
-          </li>
-          <li>
-            <h4>Step 2</h4>
-            <p>
-              Make the cream layer by beating the mascarpone, condensed milk and
-              vanilla extract with an electric whisk until thick and smooth.
-            </p>
-          </li>
-          <li>
-            <h4>Step 3</h4>
-            <p>
-              Break the sponge fingers into two or three pieces and soak in the
-              coffee mixture for a few secs. Put a few bits of the sponge in the
-              bottom <br />of two wine or sundae glasses and top with the cream.
-              Sift over the cocoa and chill for at least 1 hr before serving.
-            </p>
-          </li>
-        </ul>
-      </dd>
-      <dd>
-        <h3>Instructions Video</h3>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/tz5IrjY0sr4?si=ORT-fsrwQcxYkl_k"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-          class="center"
-        ></iframe>
-      </dd>
-    </dl>
-    <br />
-    <a href="/index.html"><button class="back">Back</button></a>
+      <h3>Ingredients</h3>
+      <ul>
+        <li>3 tsp instant coffee granules</li>
+        <li>3 tbsp coffee liqueur</li>
+        <li>250g tub mascarpone</li>
+        <li>85g condensed milk</li>
+        <li>1 tsp vanilla extract</li>
+        <li>4-6 sponge fingers</li>
+        <li>1 tbsp cocoa powder</li>
+      </ul>
+      <h3>Instructions</h3>
+      <ul>
+        <li>
+          <h4>Step 1</h4>
+          <p>
+            Mix the coffee granules with 2 tbsp boiling water in a large jug and
+            stir to combine. Add the coffee liqueur and 75ml cold water.
+            <br />
+            Pour into a shallow dish and set aside.
+          </p>
+        </li>
+        <li>
+          <h4>Step 2</h4>
+          <p>
+            Make the cream layer by beating the mascarpone, condensed milk and
+            vanilla extract with an electric whisk until thick and smooth.
+          </p>
+        </li>
+        <li>
+          <h4>Step 3</h4>
+          <p>
+            Break the sponge fingers into two or three pieces and soak in the
+            coffee mixture for a few secs. Put a few bits of the sponge in the
+            bottom <br />of two wine or sundae glasses and top with the cream.
+            Sift over the cocoa and chill for at least 1 hr before serving.
+          </p>
+        </li>
+      </ul>
+      <h3>Instructions Video</h3>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/tz5IrjY0sr4?si=ORT-fsrwQcxYkl_k"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+        class="alignment"
+      ></iframe>
+      <br />
+    </main>
+    <footer>
+      <nav>
+        <a href="#">Home</a>
+      </nav>
+      <p style="font-size: 10px; text-align: end">
+        &copy; 2024 Mom's Kitchen. All rights reserved.
+      </p>
+    </footer>
   </body>
 </html>
