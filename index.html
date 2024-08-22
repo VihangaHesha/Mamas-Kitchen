@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mom's Kitchen</title>
+    <title>Mama's Kitchen</title>
     <link rel="icon" href="/Assets/Icons/Mom_s_Kitchen 2.png" />
     <style>
       a {
@@ -68,6 +68,18 @@
         margin-right: 800px;
         width: 50%;
       }
+      footer {
+        background-color: rgb(55, 28, 153);
+        color: white;
+        padding: 5px;
+      }
+      footer a {
+        color: rgb(240, 238, 243);
+        text-decoration: none;
+      }
+      footer a :hover {
+        color: rgb(113, 73, 223);
+      }
     </style>
   </head>
   <body class="text">
@@ -83,10 +95,12 @@
                   style="height: 80px; width: 80px"
               /></a>
             </li>
-            <li><a href="#">Home</a></li>
-            <li><a href="/Pages/Categories.html">Categories</a></li>
-            <li><a href="/Pages/About.html">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <div style="width: 75%; display: flex; justify-content: end">
+              <li><a href="#">Home</a></li>
+              <li><a href="/Pages/Categories.html">Categories</a></li>
+              <li><a href="/Pages/About.html">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </div>
           </ul>
         </nav>
       </div>
@@ -96,7 +110,7 @@
         <div class="text">
           <article>
             <p>
-              Welcome to Mom's Kitchen, your go-to destination for delicious,
+              Welcome to Mama's Kitchen, your go-to destination for delicious,
               easy-to-follow recipes that cater to every taste and occasion.
               <br />
               Whether you're a seasoned chef or just starting your culinary
@@ -272,7 +286,7 @@
         <div class="text">
           <h2>About Us</h2>
           <p>
-            Mom's Kitchen is a passionate home cook and food enthusiast with a
+            Mama's Kitchen is a passionate home cook and food enthusiast with a
             love for experimenting in the kitchen. From comforting classics to
             bold, new flavors, my goal is to share recipes that are easy to
             follow, delicious, and bring joy to your table. Whether you're a
@@ -336,9 +350,16 @@
     <br />
     <footer>
       <nav>
-        <a href="#">Home</a>
+        <a href="#" style="width: 100%; display: flex; justify-content: center"
+          ><img
+            src="/Assets/Icons/Mom_s_Kitchen 2.png"
+            alt="An image of a logo"
+            style="height: 80px; width: 80px"
+        /></a>
       </nav>
-      <p>&copy; 2023 Mom's Kitchen. All rights reserved.</p>
+      <p style="font-size: 10px; text-align: end">
+        &copy; 2024 Mom's Kitchen. All rights reserved.
+      </p>
     </footer>
   </body>
 </html>
