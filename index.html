@@ -6,6 +6,12 @@
     <title>Mama's Kitchen</title>
     <link rel="icon" href="/Assets/Icons/Mom_s_Kitchen 2.png" />
     <style>
+      h2 {
+        background-color: rgb(55, 28, 153);
+        color: white;
+        padding: 5px;
+        border-radius: 10px;
+      }
       a {
         text-decoration: none;
         color: black;
@@ -58,7 +64,7 @@
       .img {
         border-radius: 40px;
       }
-      .text {
+      * {
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
         font-size: 20px;
       }
@@ -82,7 +88,7 @@
       }
     </style>
   </head>
-  <body class="text">
+  <body>
     <header>
       <div class="navbar">
         <nav>
@@ -107,7 +113,7 @@
     </header>
     <main>
       <section>
-        <div class="text">
+        <div>
           <article>
             <p>
               Welcome to Mama's Kitchen, your go-to destination for delicious,
@@ -132,30 +138,36 @@
         <table>
           <tr style="height: 200px">
             <td>
-              <img
-                src="/Assets/Images/amin-ramezani-PipzrGSil-c-unsplash.jpg"
-                alt="An image of a salad"
-                style="height: 200px; object-fit: cover"
-                class="img"
-              />
+              <a href="/Pages/Salads.html">
+                <img
+                  src="/Assets/Images/amin-ramezani-PipzrGSil-c-unsplash.jpg"
+                  alt="An image of a salad"
+                  style="height: 200px; object-fit: cover"
+                  class="img"
+                />
+              </a>
             </td>
             <td>
-              <img
-                src="/Assets/Images/sherman-kwan-Vuc8cRavyl4-unsplash.jpg"
-                alt="An image of a soup"
-                style="height: 200px; object-fit: cover"
-                class="img"
-              />
+              <a href="/Pages/Soups.html">
+                <img
+                  src="/Assets/Images/sherman-kwan-Vuc8cRavyl4-unsplash.jpg"
+                  alt="An image of a soup"
+                  style="height: 200px; object-fit: cover"
+                  class="img"
+                />
+              </a>
             </td>
           </tr>
           <tr style="height: 200px">
             <td rowspan="2">
-              <img
-                src="/Assets/Images/caramel-dhpiee8rkTo-unsplash.jpg"
-                alt="An image of a dessert"
-                style="height: 400px; object-fit: cover"
-                class="img"
-              />
+              <a href="/Pages/Desserts.html">
+                <img
+                  src="/Assets/Images/caramel-dhpiee8rkTo-unsplash.jpg"
+                  alt="An image of a dessert"
+                  style="height: 400px; object-fit: cover"
+                  class="img"
+                />
+              </a>
             </td>
             <td>
               <img
@@ -262,12 +274,18 @@
             </td>
             <td>
               <a href="/Pages/BrunchMeals.html" target="_blank"
-                ><h3>Brunch Meals</h3></a
+                ><h3>
+                  Brunch <br />
+                  Meals
+                </h3></a
               >
             </td>
             <td>
               <a href="/Pages/DinnerMeals.html" target="_blank"
-                ><h3>Dinner Meals</h3></a
+                ><h3>
+                  Dinner <br />
+                  Meals
+                </h3></a
               >
             </td>
 
