@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mom's Kitchen - Delicious Homemade Recipes</title>
-    <link rel="stylesheet" href="/Assets/Styles/experiment.css" />
+    <link rel="icon" href="/Assets/Icons/Mom_s_Kitchen 2.png" />
+    <link rel="stylesheet" href="/Assets/Styles/index.css" />
+    <link rel="stylesheet" href="/Assets/Styles/index-responsive.css" />
   </head>
   <body>
     <!-- Navigation -->
@@ -22,10 +24,10 @@
           <span class="bar"></span>
         </div>
         <div class="nav-links">
-          <a href="#">Home</a>
-          <a href="/Pages/Categories.html">Categories</a>
-          <a href="/Pages/About.html">About</a>
-          <a href="#">Contact</a>
+          <a href="/index2.html">Home</a>
+          <a href="#categories">Categories</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
         </div>
       </div>
     </nav>
@@ -78,47 +80,54 @@
     </section>
 
     <!-- Categories Section -->
-    <section class="categories">
+    <section class="categories" id="categories">
       <div class="container">
         <h2>Recipe Categories</h2>
         <div class="categories-grid">
           <div class="category-card">
-            <img
-              src="/Assets/Images/adam-bartoszewicz-_zXy4MvdWkA-unsplash.jpg"
-              alt="Salads"
-            />
+            <a href="/Pages/Salads.html"
+              ><img
+                src="/Assets/Images/adam-bartoszewicz-_zXy4MvdWkA-unsplash.jpg"
+                alt="Salads"
+            /></a>
             <h3>Salads</h3>
           </div>
           <div class="category-card">
-            <img
-              src="/Assets/Images/Spot Prawn Sesame Salad.jpg"
-              alt="Starters"
-            />
+            <a href="/Pages/Starters.html">
+              <img
+                src="/Assets/Images/Spot Prawn Sesame Salad.jpg"
+                alt="Starters"
+            /></a>
             <h3>Starters</h3>
           </div>
           <div class="category-card">
-            <img
-              src="/Assets/Images/sherman-kwan-Vuc8cRavyl4-unsplash.jpg"
-              alt="Soups"
-            />
+            <a href="/Pages/Soups.html"
+              ><img
+                src="/Assets/Images/sherman-kwan-Vuc8cRavyl4-unsplash.jpg"
+                alt="Soups"
+            /></a>
             <h3>Soups</h3>
           </div>
           <div class="category-card">
-            <img
-              src="/Assets/Images/istockphoto-989456062-1024x1024.jpg"
-              alt="Brunch"
-            />
+            <a href="/Pages/BrunchMeals.html"
+              ><img
+                src="/Assets/Images/istockphoto-989456062-1024x1024.jpg"
+                alt="Brunch"
+            /></a>
             <h3>Brunch Meals</h3>
           </div>
           <div class="category-card">
-            <img
-              src="/Assets/Images/christine-siracusa-Cs5xVwB50Ps-unsplash.jpg"
-              alt="Dinner"
-            />
+            <a href="/Pages/DinnerMeals.html"
+              ><img
+                src="/Assets/Images/christine-siracusa-Cs5xVwB50Ps-unsplash.jpg"
+                alt="Dinner"
+            /></a>
             <h3>Dinner Meals</h3>
           </div>
           <div class="category-card">
-            <img src="/Assets/Images/tirmisu.jpg" alt="Desserts" />
+            <a href="/Pages/Desserts.html"
+              ><img src="/Assets/Images/tirmisu.jpg" alt="Desserts"
+            /></a>
             <h3>Desserts</h3>
           </div>
         </div>
@@ -126,10 +135,18 @@
     </section>
 
     <!-- About Section -->
-    <section class="about">
+    <section class="about" id="about">
       <div class="about-content">
         <h2>About Mom's Kitchen</h2>
-        <p>Welcome to our culinary haven where passion meets tradition</p>
+        <p>
+          Mama's Kitchen is a passionate home cook and food enthusiast with a
+          love for experimenting in the kitchen. From comforting classics to
+          bold, new flavors, my goal is to share recipes that are easy to
+          follow, delicious, and bring joy to your table. Whether you're a
+          seasoned chef or just starting your culinary journey, you'll find a
+          variety of dishes here that cater to every taste and occasion. Join me
+          as we explore the wonderful world of food, one recipe at a time
+        </p>
         <div class="about-cards">
           <div class="about-card">
             <h3>Our Story</h3>
@@ -143,13 +160,6 @@
             <p>
               Making cooking accessible and enjoyable for everyone, from
               beginners to experienced chefs.
-            </p>
-          </div>
-          <div class="about-card">
-            <h3>Our Promise</h3>
-            <p>
-              Every recipe is carefully tested and perfected to ensure your
-              cooking success.
             </p>
           </div>
         </div>
@@ -179,7 +189,7 @@
     </section>
 
     <!-- Social Connect -->
-    <section class="social-connect">
+    <section class="social-connect" id="contact">
       <div class="container">
         <h2>Connect With Us</h2>
         <div class="social-links">
@@ -200,10 +210,11 @@
     <footer>
       <div class="container">
         <div class="footer-content">
-          <img
-            src="/Assets/Icons/Mom_s_Kitchen 2.png"
-            alt="Mom's Kitchen Logo"
-          />
+          <a href="/index2.html"
+            ><img
+              src="/Assets/Icons/Mom_s_Kitchen 2.png"
+              alt="Mom's Kitchen Logo"
+          /></a>
           <p>© 2024 Mom's Kitchen. All rights reserved.</p>
         </div>
       </div>

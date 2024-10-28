@@ -4,48 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="/Assets/Icons/Mom_s_Kitchen 2.png" />
-    <link rel="stylesheet" href="/Assets/Styles/style.css" />
-    <title>Dinner Meals</title>
+    <link rel="stylesheet" href="/Assets/Styles/pages.css" />
+    <link rel="stylesheet" href="/Assets/Styles/pages-responsive.css" />
+    <title>Mom's Kitchen - Recipes</title>
   </head>
   <body>
-    <header>
-      <div class="navbar">
-        <nav>
-          <ul>
-            <li>
-              <a href="/index.html"
-                ><img
-                  src="/Assets/Icons/Mom_s_Kitchen 2.png"
-                  alt="An image of a logo"
-                  style="height: 80px; width: 80px"
-              /></a>
-            </li>
-            <li><h1 style="color: aliceblue; font-size: 30px">Dinner</h1></li>
-            <div style="width: 75%; display: flex; justify-content: end">
-              <li><a href="/index.html">Home</a></li>
-              <li><a href="/Pages/Categories.html">Categories</a></li>
-              <li><a href="/Pages/About.html">About</a></li>
-              <li><a href="#">Contact</a></li>
-            </div>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <main>
-      <section>
-        <div>
-          <h2><u>Chicken Pasta Bake</u></h2>
+    <nav class="navbar">
+      <div class="nav-content">
+        <div class="logo">
           <img
-            src="/Assets/Images/christine-siracusa-Cs5xVwB50Ps-unsplash.jpg"
-            alt="An image of Chicken Pasta Bake"
-            class="center"
-            width="300"
-            height="600"
+            src="/Assets/Icons/Mom_s_Kitchen 2.png"
+            alt="Mom's Kitchen Logo"
           />
         </div>
-        <div>
+        <div class="menu-toggle">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <div class="nav-links">
+          <a href="/index2.html">Home</a>
+          <a href="/index2.html">Categories</a>
+          <a href="/index2.html">About</a>
+          <a href="/index2.html">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="recipe-section">
+        <h2>Chicken Pasta Bake</h2>
+        <img
+          src="/Assets/Images/christine-siracusa-Cs5xVwB50Ps-unsplash.jpg"
+          alt="An image of Chicken Pasta Bake"
+          class="recipe-image"
+        />
+
+        <div class="ingredients-container">
           <h3>Ingredients</h3>
-          <ul>
+          <ul class="ingredients-list">
             <li>4 tbsp olive oil</li>
             <li>1 onion, finely chopped</li>
             <li>2 garlic cloves, crushed</li>
@@ -60,67 +57,75 @@
             <li>½ small bunch of parsley, finely chopped</li>
           </ul>
         </div>
-        <div>
+
+        <div class="instructions-container">
           <h3>Instructions</h3>
-          <ul>
-            <li>
-              <h4>Step 1</h4>
-              <p>
-                Heat 2 tbsp of the oil in a pan over a medium heat and fry the
-                onion gently for 10-12 mins. Add the garlic and chilli flakes
-                <br />
-                and cook for 1 min. Tip in the tomatoes and sugar and season to
-                taste. Simmer uncovered for 20 mins or until thickened, then
-                stir through the mascarpone.
-              </p>
-            </li>
-            <li>
-              <h4>Step 2</h4>
-              <p>
-                Heat 1 tbsp of oil in a non-stick frying pan. Season the chicken
-                and fry for 5-7 mins or until the chicken is cooked through.
-              </p>
-            </li>
-            <li>
-              <h4>Step 3</h4>
-              <p>
-                Heat the oven to 220C/200C fan/gas 7. Cook the penne following
-                pack instructions. Drain and toss with the remaining oil.
-                <br />Tip the pasta into a medium sized ovenproof dish. Stir in
-                the chicken and pour over the sauce. Top with the cheddar,
-                mozzarella and parsley. <br />Bake for 20 mins or until golden
-                brown and bubbling.
-              </p>
-            </li>
-          </ul>
+          <div class="instruction-step">
+            <h4>Step 1</h4>
+            <p>
+              Heat the oven to 220C/200C fan/gas 7. Spread the butternut squash,
+              broccoli and garlic cloves across a large baking tray
+              <br />
+              lined with baking parchment, then drizzle with the vegetable oil
+              and season well. Roast for 20-25 mins until cooked through and
+              charring around the edges.
+            </p>
+          </div>
+
+          <div class="instruction-step">
+            <h4>Step 2</h4>
+            <p>
+              Put half of the butternut squash in a medium bowl and squeeze out
+              the roasted garlic from the skins into the bowl. <br />Leave the
+              broccoli in the oven to keep warm. Mash the squash and garlic well
+              with a fork or potato masher until a rough paste forms.
+              <br />Whisk in the miso, peanut butter and soy sauce until smooth.
+            </p>
+          </div>
+          <div class="instruction-step">
+            <h4>Step 3</h4>
+            <p>
+              Heat the stock in a large pan until boiling, then whisk in the
+              butternut squash and miso mixture. Bring to a simmer <br />
+              and add the noodles. Cook for 3-4 mins until just tender.
+            </p>
+          </div>
+          <div class="instruction-step">
+            <h4>Step 4</h4>
+            <p>
+              Split the soup and noodles between two bowls, then top with the
+              remaining half of the butternut squash, the broccoli,<br />
+              halved soft-boiled eggs, coriander and sliced chilli. Grind black
+              pepper over the eggs, if you like.
+            </p>
+          </div>
         </div>
-        <div>
+        <div class="video-section">
           <h3>Instructions Video</h3>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/RkYz9L3LVfc?si=mU1fg0wX4xjTGTqI"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-            class="center"
-          ></iframe>
+          <div class="video-container">
+            <iframe
+              src="https://www.youtube.com/embed/RkYz9L3LVfc?si=mU1fg0wX4xjTGTqI"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
       </section>
-      <section>
-        <div>
-          <h2><u>Miso & butternut squash ramen</u></h2>
-          <img
-            src="/Assets/Images/delicious-ramen-dark-surface.jpg"
-            alt="An image of Miso & butternut squash ramen"
-            class="center"
-          />
-        </div>
-        <div>
+    </main>
+    <main>
+      <section class="recipe-section">
+        <h2>Miso & butternut squash ramen</h2>
+        <img
+          src="/Assets/Images/delicious-ramen-dark-surface.jpg"
+          alt="An image of Miso & butternut squash ramen"
+          class="recipe-image"
+        />
+
+        <div class="ingredients-container">
           <h3>Ingredients</h3>
-          <ul>
+          <ul class="ingredients-list">
             <li>200g pack of chopped butternut squash</li>
             <li>100g purple sprouting broccoli</li>
             <li>3 garlic cloves, unpeeled and lightly bashed</li>
@@ -135,78 +140,60 @@
             <li>1 red chilli, sliced</li>
           </ul>
         </div>
-        <div>
+
+        <div class="instructions-container">
           <h3>Instructions</h3>
-          <ul>
-            <li>
-              <h4>Step 1</h4>
-              <p>
-                Heat the oven to 220C/200C fan/gas 7. Spread the butternut
-                squash, broccoli and garlic cloves across a large baking tray
-                <br />
-                lined with baking parchment, then drizzle with the vegetable oil
-                and season well. Roast for 20-25 mins until cooked through and
-                charring around the edges.
-              </p>
-            </li>
-            <li>
-              <h4>Step 2</h4>
-              <p>
-                Put half of the butternut squash in a medium bowl and squeeze
-                out the roasted garlic from the skins into the bowl. <br />Leave
-                the broccoli in the oven to keep warm. Mash the squash and
-                garlic well with a fork or potato masher until a rough paste
-                forms. <br />Whisk in the miso, peanut butter and soy sauce
-                until smooth.
-              </p>
-            </li>
-            <li>
-              <h4>Step 3</h4>
-              <p>
-                Heat the stock in a large pan until boiling, then whisk in the
-                butternut squash and miso mixture. Bring to a simmer <br />
-                and add the noodles. Cook for 3-4 mins until just tender.
-              </p>
-            </li>
-            <li>
-              <h4>Step 4</h4>
-              <p>
-                Split the soup and noodles between two bowls, then top with the
-                remaining half of the butternut squash, the broccoli,<br />
-                halved soft-boiled eggs, coriander and sliced chilli. Grind
-                black pepper over the eggs, if you like.
-              </p>
-            </li>
-          </ul>
+          <div class="instruction-step">
+            <h4>Step 1</h4>
+            <p>
+              Mix the coffee granules with 2 tbsp boiling water in a large jug
+              and stir to combine. Add the coffee liqueur and 75ml cold water.
+              <br />
+              Pour into a shallow dish and set aside.
+            </p>
+          </div>
+
+          <div class="instruction-step">
+            <h4>Step 2</h4>
+            <p>
+              Make the cream layer by beating the mascarpone, condensed milk and
+              vanilla extract with an electric whisk until thick and smooth.
+            </p>
+          </div>
+          <div class="instruction-step">
+            <h4>Step 3</h4>
+            <p>
+              Break the sponge fingers into two or three pieces and soak in the
+              coffee mixture for a few secs. Put a few bits of the sponge in the
+              bottom <br />of two wine or sundae glasses and top with the cream.
+              Sift over the cocoa and chill for at least 1 hr before serving.
+            </p>
+          </div>
         </div>
-        <div>
+        <div class="video-section">
           <h3>Instructions Video</h3>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/__FCDfqkcgk?si=eGCd1kKAV-gGSrJ8"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-            class="center"
-          ></iframe>
+          <div class="video-container">
+            <iframe
+              src="https://www.youtube.com/embed/__FCDfqkcgk?si=eGCd1kKAV-gGSrJ8"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
       </section>
     </main>
+
     <footer>
-      <nav>
-        <a href="#" style="width: 100%; display: flex; justify-content: center"
-          ><img
-            src="/Assets/Icons/Mom_s_Kitchen 2.png"
-            alt="An image of a logo"
-            style="height: 80px; width: 80px"
-        /></a>
-      </nav>
-      <p style="font-size: 10px; text-align: end">
-        &copy; 2024 Mom's Kitchen. All rights reserved.
-      </p>
+      <a href="/index2.html"
+        ><img
+          src="/Assets/Icons/Mom_s_Kitchen%202.png"
+          alt="Mom's Kitchen Logo"
+      /></a>
+      <p>© 2024 Mom's Kitchen. All rights reserved.</p>
     </footer>
+
+    <script src="/Assets/JS/Menu.js"></script>
   </body>
 </html>
