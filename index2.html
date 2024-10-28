@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mom's Kitchen - Delicious Homemade Recipes</title>
+    <link rel="icon" href="/Assets/Icons/Mom_s_Kitchen 2.png" />
+    <link rel="stylesheet" href="/Assets/Styles/index.css" />
+    <link rel="stylesheet" href="/Assets/Styles/index-responsive.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-content">
+        <div class="logo">
+          <img
+            src="/Assets/Icons/Mom_s_Kitchen 2.png"
+            alt="Mom's Kitchen Logo"
+          />
+        </div>
+        <div class="menu-toggle">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <div class="nav-links">
+          <a href="/index2.html">Home</a>
+          <a href="#categories">Categories</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <h1>Welcome to Mom's Kitchen</h1>
+      <p>
+        Discover delicious, easy-to-follow recipes that bring joy to your table
+      </p>
+    </section>
+
+    <!-- Featured Recipes -->
+    <section class="featured">
+      <div class="container">
+        <h2>Featured Recipes</h2>
+        <div class="featured-grid">
+          <article class="recipe-card">
+            <a href="/Pages/Salads.html" style="text-decoration: none"
+              ><img
+                src="/Assets/Images/amin-ramezani-PipzrGSil-c-unsplash.jpg"
+                alt="Fresh Salad"
+              />
+              <div class="recipe-content">
+                <h3>Garden Fresh Salad</h3>
+                <p>A refreshing mix of seasonal vegetables</p>
+              </div></a
+            >
+          </article>
+          <article class="recipe-card">
+            <a href="/Pages/Soups.html" style="text-decoration: none"
+              ><img
+                src="/Assets/Images/sherman-kwan-Vuc8cRavyl4-unsplash.jpg"
+                alt="Homemade Soup"
+              />
+              <div class="recipe-content">
+                <h3>Comfort Soup</h3>
+                <p>Warming soup for cold days</p>
+              </div></a
+            >
+          </article>
+          <article class="recipe-card">
+            <a href="/Pages/BrunchMeals.html" style="text-decoration: none"
+              ><img
+                src="/Assets/Images/caramel-dhpiee8rkTo-unsplash.jpg"
+                alt="Dessert"
+              />
+              <div class="recipe-content">
+                <h3>Sweet Delights</h3>
+                <p>Irresistible homemade desserts</p>
+              </div></a
+            >
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories" id="categories">
+      <div class="container">
+        <h2>Recipe Categories</h2>
+        <div class="categories-grid">
+          <div class="category-card">
+            <a href="/Pages/Salads.html"
+              ><img
+                src="/Assets/Images/adam-bartoszewicz-_zXy4MvdWkA-unsplash.jpg"
+                alt="Salads"
+            /></a>
+            <h3>Salads</h3>
+          </div>
+          <div class="category-card">
+            <a href="/Pages/Starters.html">
+              <img
+                src="/Assets/Images/Spot Prawn Sesame Salad.jpg"
+                alt="Starters"
+            /></a>
+            <h3>Starters</h3>
+          </div>
+          <div class="category-card">
+            <a href="/Pages/Soups.html"
+              ><img
+                src="/Assets/Images/sherman-kwan-Vuc8cRavyl4-unsplash.jpg"
+                alt="Soups"
+            /></a>
+            <h3>Soups</h3>
+          </div>
+          <div class="category-card">
+            <a href="/Pages/BrunchMeals.html"
+              ><img
+                src="/Assets/Images/istockphoto-989456062-1024x1024.jpg"
+                alt="Brunch"
+            /></a>
+            <h3>Brunch Meals</h3>
+          </div>
+          <div class="category-card">
+            <a href="/Pages/DinnerMeals.html"
+              ><img
+                src="/Assets/Images/christine-siracusa-Cs5xVwB50Ps-unsplash.jpg"
+                alt="Dinner"
+            /></a>
+            <h3>Dinner Meals</h3>
+          </div>
+          <div class="category-card">
+            <a href="/Pages/Desserts.html"
+              ><img src="/Assets/Images/tirmisu.jpg" alt="Desserts"
+            /></a>
+            <h3>Desserts</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="about-content">
+        <h2>About Mom's Kitchen</h2>
+        <p>
+          Mama's Kitchen is a passionate home cook and food enthusiast with a
+          love for experimenting in the kitchen. From comforting classics to
+          bold, new flavors, my goal is to share recipes that are easy to
+          follow, delicious, and bring joy to your table. Whether you're a
+          seasoned chef or just starting your culinary journey, you'll find a
+          variety of dishes here that cater to every taste and occasion. Join me
+          as we explore the wonderful world of food, one recipe at a time
+        </p>
+        <div class="about-cards">
+          <div class="about-card">
+            <h3>Our Story</h3>
+            <p>
+              Started from a small family kitchen, sharing beloved recipes
+              passed down through generations.
+            </p>
+          </div>
+          <div class="about-card">
+            <h3>Our Mission</h3>
+            <p>
+              Making cooking accessible and enjoyable for everyone, from
+              beginners to experienced chefs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recipe Submission -->
+    <section class="submit-recipe">
+      <div class="container">
+        <h2>Share Your Recipe</h2>
+        <form class="recipe-form">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="recipe">Your Recipe</label>
+            <textarea id="recipe" name="recipe" rows="6" required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Submit Recipe</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Social Connect -->
+    <section class="social-connect" id="contact">
+      <div class="container">
+        <h2>Connect With Us</h2>
+        <div class="social-links">
+          <a href="https://web.facebook.com/anomaskitchen" target="_blank">
+            <img src="/Assets/Icons/icons8-facebook-100.png" alt="Facebook" />
+          </a>
+          <a href="https://www.youtube.com/@AnomasKitchen" target="_blank">
+            <img src="/Assets/Icons/icons8-youtube-100.png" alt="YouTube" />
+          </a>
+          <a href="https://www.instagram.com/anomaskitchen" target="_blank">
+            <img src="/Assets/Icons/icons8-instagram-100.png" alt="Instagram" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <a href="/index2.html"
+            ><img
+              src="/Assets/Icons/Mom_s_Kitchen 2.png"
+              alt="Mom's Kitchen Logo"
+          /></a>
+          <p>© 2024 Mom's Kitchen. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/Assets/JS/Menu.js"></script>
+  </body>
+</html>

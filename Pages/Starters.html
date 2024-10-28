@@ -4,46 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="/Assets/Icons/Mom_s_Kitchen 2.png" />
-    <link rel="stylesheet" href="/Assets/Styles/style.css" />
-    <title>Starters</title>
+    <link rel="stylesheet" href="/Assets/Styles/pages.css" />
+    <link rel="stylesheet" href="/Assets/Styles/pages-responsive.css" />
+    <title>Mom's Kitchen - Starters</title>
+    <style></style>
   </head>
   <body>
-    <header>
-      <div class="navbar">
-        <nav>
-          <ul>
-            <li>
-              <a href="/index.html"
-                ><img
-                  src="/Assets/Icons/Mom_s_Kitchen 2.png"
-                  alt="An image of a logo"
-                  style="height: 80px; width: 80px"
-              /></a>
-            </li>
-            <li><h1 style="color: aliceblue; font-size: 30px">Starters</h1></li>
-            <div style="width: 75%; display: flex; justify-content: end">
-              <li><a href="/index.html">Home</a></li>
-              <li><a href="/Pages/Categories.html">Categories</a></li>
-              <li><a href="/Pages/About.html">About</a></li>
-              <li><a href="#">Contact</a></li>
-            </div>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <main>
-      <section>
-        <div>
-          <h2>Jamon & wild garlic croquetas</h2>
+    <nav class="navbar">
+      <div class="nav-content">
+        <div class="logo">
           <img
-            src="/Assets/Images/stock-photo-potato-croquettes-with-ham-and-sauce-close-up-2127236975.jpg"
-            alt="An image of Jamon and wild garlic croquetas"
-            class="alignment"
+            src="/Assets/Icons/Mom_s_Kitchen 2.png"
+            alt="Mom's Kitchen Logo"
           />
         </div>
-        <div>
+        <div class="menu-toggle">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <div class="nav-links">
+          <a href="/index2.html">Home</a>
+          <a href="/index2.html">Categories</a>
+          <a href="/index2.html">About</a>
+          <a href="/index2.html">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="recipe-section">
+        <h2>Jamon & wild garlic croquetas</h2>
+        <img
+          src="/Assets/Images/stock-photo-potato-croquettes-with-ham-and-sauce-close-up-2127236975.jpg"
+          alt="An image of Jamon and wild garlic croquetas"
+          class="recipe-image"
+        />
+
+        <div class="ingredients-container">
           <h3>Ingredients</h3>
-          <ul>
+          <ul class="ingredients-list">
             <li>150g wild garlic leaves</li>
             <li>350g whole milk</li>
             <li>350g whole milk</li>
@@ -59,162 +59,150 @@
             <li>1l light olive or vegetable oil</li>
           </ul>
         </div>
-        <div>
+
+        <div class="instructions-container">
           <h3>Instructions</h3>
-          <ul>
-            <li>
-              <h4>Step 1</h4>
-              <p>
-                Wash the wild garlic leaves well in a colander, then pour over
-                boiling water from the kettle until just wilted. <br />
-                Immediately rinse under cold running water, then squeeze out the
-                excess water and finely chop.
-              </p>
-            </li>
-            <li>
-              <h4>Step 2</h4>
-              <p>
-                Warm the milk in a pan over a low heat until just steaming. Heat
-                the oil or butter in a second pan and, once warm or melted,
-                <br />
-                stir in the flour for a couple of minutes until it starts to
-                brown a little. Gradually add the warm milk, a little at a time,
-                until you have a thick,<br />
-                silky sauce. Bubble for a minute or two, stirring to make sure
-                all the flour has cooked out. Season.
-              </p>
-            </li>
-            <li>
-              <h4>Step 3</h4>
-              <p>
-                Add the manchego, jamón and wild garlic to the pan, and beat to
-                combine. Tip out onto a lightly oiled baking tray or plate,
-                <br />spread out then cover and chill for at least 1 hr. Will
-                keep chilled for up to 24 hrs.
-              </p>
-            </li>
-            <li>
-              <h4>Step 4</h4>
-              <p>
-                Lightly oil your hands and shape the mixture into 18-20
-                even-sized balls. Arrange on a baking tray and freeze for 30
-                mins to firm up.
-              </p>
-            </li>
-            <li>
-              <h4>Step 5</h4>
-              <p>
-                Beat the egg in a shallow dish with a little seasoning. Tip the
-                panko into a second dish. Dip each of the croquetas in the egg,
-                <br />
-                then turn to coat in the breadcrumbs. At this point, the raw
-                croquetas can be frozen for up to three months. Pour the oil
-                into a large,
-                <br />
-                deep pan ensuring it is no more than a third full and heat to
-                170C, or until a cube of bread browns lightly in 30 seconds.
-                <br />Fry the croquetas in batches for 2-3 mins until deeply
-                golden. To cook from frozen, fry at 160C for a few minutes
-                longer
-                <br />
-                until they’re piping hot inside. Remove to a sheet of kitchen
-                paper using a slotted spoon and leave to drain. Serve warm with
-                a glass of sherry.
-              </p>
-            </li>
-          </ul>
+          <div class="instruction-step">
+            <h4>Step 1</h4>
+            <p>
+              Wash the wild garlic leaves well in a colander, then pour over
+              boiling water from the kettle until just wilted. <br />
+              Immediately rinse under cold running water, then squeeze out the
+              excess water and finely chop.
+            </p>
+          </div>
+
+          <div class="instruction-step">
+            <h4>Step 2</h4>
+            <p>
+              Warm the milk in a pan over a low heat until just steaming. Heat
+              the oil or butter in a second pan and, once warm or melted,
+              <br />
+              stir in the flour for a couple of minutes until it starts to brown
+              a little. Gradually add the warm milk, a little at a time, until
+              you have a thick,<br />
+              silky sauce. Bubble for a minute or two, stirring to make sure all
+              the flour has cooked out. Season.
+            </p>
+          </div>
+          <div class="instruction-step">
+            <h4>Step 3</h4>
+            <p>
+              Add the manchego, jamón and wild garlic to the pan, and beat to
+              combine. Tip out onto a lightly oiled baking tray or plate,
+              <br />spread out then cover and chill for at least 1 hr. Will keep
+              chilled for up to 24 hrs.
+            </p>
+          </div>
+          <div class="instruction-step">
+            <h4>Step 4</h4>
+            <p>
+              Lightly oil your hands and shape the mixture into 18-20 even-sized
+              balls. Arrange on a baking tray and freeze for 30 mins to firm up.
+            </p>
+          </div>
+          <div class="instruction-step">
+            <h4>Step 5</h4>
+            <p>
+              Beat the egg in a shallow dish with a little seasoning. Tip the
+              panko into a second dish. Dip each of the croquetas in the egg,
+              <br />
+              then turn to coat in the breadcrumbs. At this point, the raw
+              croquetas can be frozen for up to three months. Pour the oil into
+              a large,
+              <br />
+              deep pan ensuring it is no more than a third full and heat to
+              170C, or until a cube of bread browns lightly in 30 seconds.
+              <br />Fry the croquetas in batches for 2-3 mins until deeply
+              golden. To cook from frozen, fry at 160C for a few minutes longer
+              <br />
+              until they’re piping hot inside. Remove to a sheet of kitchen
+              paper using a slotted spoon and leave to drain. Serve warm with a
+              glass of sherry.
+            </p>
+          </div>
         </div>
-        <div>
+        <div class="video-section">
           <h3>Instructions Video</h3>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/k6OFRKIO_aI?si=ba20puVZLOPBCx7i"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-            class="alignment"
-          ></iframe>
+          <div class="video-container">
+            <iframe
+              src="https://www.youtube.com/embed/k6OFRKIO_aI?si=ba20puVZLOPBCx7i"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
       </section>
+    </main>
+    <main>
+      <section class="recipe-section">
+        <h2>Smoked salmon with prawns, horseradish cream & lime vinaigrette</h2>
+        <img
+          src="/Assets/Images/Spot Prawn Sesame Salad.jpg"
+          alt="An image of a Smoked salmon with prawns, horseradish cream & lime vinaigrette"
+          class="recipe-image"
+        />
 
-      <section>
-        <div>
-          <h2>
-            Smoked salmon with prawns, horseradish cream & lime vinaigrette
-          </h2>
-          <img
-            src="/Assets/Images/Spot Prawn Sesame Salad.jpg"
-            alt="An image of a Smoked salmon with prawns, horseradish cream & lime vinaigrette"
-            class="alignment"
-            width="300"
-            height="400"
-          />
-        </div>
-        <div>
+        <div class="ingredients-container">
           <h3>Ingredients</h3>
-          <ul>
+          <ul class="ingredients-list">
             <li>1 tbsp crème fraîche</li>
             <li>1 tsp horseradish sauce</li>
             <li>4 slices smoked salmon</li>
             <li>10 large cooked prawns, peeled but tails left on</li>
-          </ul>
-          <h3>For the salad</h3>
-          <ul>
-            <li>juice 1 lime, finely grated zest of ½</li>
-            <li>1 tsp clear honey</li>
-            <li>½ tsp finely grated fresh root ginger</li>
-            <li>2 tbsp light olive oil</li>
-            <li>2 handfuls small leaf salad</li>
+
+            <br />
+            <h3>For the salad</h3>
+            <ul>
+              <li>juice 1 lime, finely grated zest of ½</li>
+              <li>1 tsp clear honey</li>
+              <li>½ tsp finely grated fresh root ginger</li>
+              <li>2 tbsp light olive oil</li>
+              <li>2 handfuls small leaf salad</li>
+            </ul>
           </ul>
         </div>
-        <div>
+
+        <div class="instructions-container">
           <h3>Instructions</h3>
-          <ul>
-            <li>
-              <h4>Step 1</h4>
-              <p>
-                Mix the crème fraîche with the horseradish and a little salt and
-                pepper. For the dressing, whisk the lime juice and zest with the
-                honey, ginger and seasoning, then whisk in the oil. Lay the
-                smoked salmon and prawns on 2 plates, then top with a dollop of
-                the horseradish cream. Toss the salad in most of the dressing
-                and pile on top. Drizzle the remaining dressing around the plate
-                and serve.
-              </p>
-            </li>
-          </ul>
+          <div class="instruction-step">
+            <h4>Step 1</h4>
+            <p>
+              Mix the crème fraîche with the horseradish and a little salt and
+              pepper. For the dressing, whisk the lime juice and zest with the
+              honey, ginger and seasoning, then whisk in the oil. Lay the smoked
+              salmon and prawns on 2 plates, then top with a dollop of the
+              horseradish cream. Toss the salad in most of the dressing and pile
+              on top. Drizzle the remaining dressing around the plate and serve.
+            </p>
+          </div>
         </div>
-        <div>
+        <div class="video-section">
           <h3>Instructions Video</h3>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/Fkhl2S_XvPI?si=Fm-CSDYAMwgpFdJk"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-            class="alignment"
-          ></iframe>
+          <div class="video-container">
+            <iframe
+              src="https://www.youtube.com/embed/Fkhl2S_XvPI?si=Fm-CSDYAMwgpFdJk"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
       </section>
     </main>
+
     <footer>
-      <nav>
-        <a href="#" style="width: 100%; display: flex; justify-content: center"
-          ><img
-            src="/Assets/Icons/Mom_s_Kitchen 2.png"
-            alt="An image of a logo"
-            style="height: 80px; width: 80px"
-        /></a>
-      </nav>
-      <p style="font-size: 10px; text-align: end">
-        &copy; 2024 Mom's Kitchen. All rights reserved.
-      </p>
+      <a href="/index2.html"
+        ><img
+          src="/Assets/Icons/Mom_s_Kitchen%202.png"
+          alt="Mom's Kitchen Logo"
+      /></a>
+      <p>© 2024 Mom's Kitchen. All rights reserved.</p>
     </footer>
+
+    <script src="/Assets/JS/Menu.js"></script>
   </body>
 </html>
